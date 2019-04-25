@@ -11,3 +11,28 @@ notebook主要部分，notebook编辑区
 2.不同cell功能
 code:输入代码并运行  Shift+Enter运行
 markdown:#一级标题  ##二级标题
+
+3.单元操作
+删除一个cell，先选中cell，点击Edit->Delete cell
+移动一个cell的位置，点击Edit-> Move cell [up | down]
+剪切、粘贴cell，点击Edit->Cut Cell then Edit -> Paste Cell …，选择需要的粘贴形式
+如果有许多cells，而你只想执行一次，或者你想一次性执行大量代码，你就可以合并多个cells，点击Edit->Merge cell [above|below]
+
+4.Markdown单元高级用法
+
+Mardown支持html代码，可以在cell中执行添加图片等操作
+<img src="http://blog.jupyter.org/content/images/2015/02/jupyter-sq-text.png"
+style="width:100px;height:100px;float:left">
+
+Markdown还支持LaTex语法
+$$\int_0^{+\infty} x^2 dx$$
+
+5.导出功能
+notebook可导出为如下多种形式：
+HTML
+Markdown
+ReST
+PDF(Through LaTex)
+Raw Python
+
+6.Matplotlib集成
