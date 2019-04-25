@@ -36,3 +36,14 @@ PDF(Through LaTex)
 Raw Python
 
 6.Matplotlib集成
+获取所有matplotlib生成的图形，并把它们嵌入到notebook中：
+%matplotlib inline
+
+之后运行作图：
+import matplotlib.pyplot as plt
+import numpy as np
+x =np.arange(20)
+y = x**2
+plt.plot(x,y)
+
+7.非本地内核
