@@ -1,2 +1,13 @@
 学习Jupyter notebook和Pycharm基本操作
 
+1.notebook
+
+1.1notebook由以下部分组成：
+notebook名字
+主工具栏，包括保存notebook、导出、重载、重启内核等
+快捷键
+notebook主要部分，notebook编辑区
+
+2.不同cell功能
+code:输入代码并运行  Shift+Enter运行
+markdown:#一级标题  ##二级标题
