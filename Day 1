@@ -1,6 +1,5 @@
-学习Jupyter notebook和Pycharm基本操作
+学习Jupyter notebook基本操作
 
-1.notebook
 
 1.1 notebook由以下部分组成：
 notebook名字
@@ -50,6 +49,4 @@ plt.plot(x,y)
 Jupyter notebook非常容易从本地电脑上启动，也允许多个人通过网络连接到同一个Jupyter实例
 例如IPython Notebook运行在：http://localhost:8888/，则表示本地运行，可通过改地址访问
 
-2.pycharm基本操作
 
-2.1
